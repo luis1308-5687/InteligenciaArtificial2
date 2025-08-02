@@ -5,6 +5,22 @@ from urllib.parse import urljoin
 
 #LUIS ROLANDO CALCINA QUISPE
 
+#Este script en Python realiza Web Scraping para extraer automaticamente texto, imágenes, videos y 
+#audios desde una pagina web utilizando las librerias requests y BeautifulSoup. El contenido se guarda 
+# organizado en carpetas según su tipo.
+
+#Ventajas
+#Extrae varios tipos de contenido (texto, imagenes, videos y audios).
+#Facil de usar y modificar para diferentes paginas web.
+#No requiere herramientas avanzadas.
+
+#Desventajas
+#Solo funciona con contenido HTML estatico, no detecta elementos generados por JavaScript.
+#No sigue enlaces internos ni paginas adicionales.
+#Puede fallar si la estructura de la pagina cambia.
+#No maneja formatos ni extensiones dinamicas.
+#Puede estar limitado por politicas legales del sitio web.
+
 url = "https://www.w3schools.com/html/html5_video.asp"  
 
 
